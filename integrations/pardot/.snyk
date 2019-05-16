@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - component-cookie > debug:
+        patched: '2019-05-16T07:56:08.366Z'
+    - '@segment/analytics.js-core > component-cookie > debug':
+        patched: '2019-05-16T07:56:08.366Z'
+    - '@segment/analytics.js-core > @segment/top-domain > component-cookie > debug':
+        patched: '2019-05-16T07:56:08.366Z'
+  'npm:extend:20180424':
+    - '@segment/analytics.js-core > extend':
+        patched: '2019-05-16T07:56:08.366Z'
+  'npm:ms:20170412':
+    - component-cookie > debug > ms:
+        patched: '2019-05-16T07:56:08.366Z'
+    - '@segment/analytics.js-core > component-cookie > debug > ms':
+        patched: '2019-05-16T07:56:08.366Z'
+    - '@segment/analytics.js-core > @segment/top-domain > component-cookie > debug > ms':
+        patched: '2019-05-16T07:56:08.366Z'
